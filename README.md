@@ -44,17 +44,6 @@ bpred.cpp/.h     — branch predictor interface (get prediction / update predict
 
 ## Results
 
-Pipeline performance (in cycles-to-completion) was evaluated across four instruction traces for each configuration:
-
-| Configuration | Description |
-|---|---|
-| N=1, no forwarding | Scalar, stall-only baseline |
-| N=1, forwarding | Scalar with EX/MEM forwarding |
-| N=2, forwarding | Superscalar, perfect branch prediction |
-| N=2, AlwaysTaken | Superscalar with baseline branch predictor |
-| N=2, gshare | Superscalar with adaptive 2-level branch predictor |
-
-*(Add your actual cycle-count / IPC results and any performance comparison charts here once testing is complete.)*
 
 ## Tools
 
