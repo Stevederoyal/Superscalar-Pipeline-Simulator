@@ -1,4 +1,4 @@
-# Trace-Driven Superscalar RISC Pipeline Timing Simulator
+# Superscalar Pipeline Simulator
 
 A cycle-accurate, trace-driven microarchitectural timing simulator written in C++ modeling an configurable $N$-wide superscalar execution pipeline. The simulator incorporates microarchitectural mechanisms including intra-bundle and cross-stage RAW dependency tracking, multi-stage operand forwarding networks with load-use stall logic, condition code status tracking, and dynamic branch prediction architectures (Always-Taken and 12-bit Gshare).
 
