@@ -27,7 +27,4 @@ A cycle-accurate, trace-driven timing simulator for an $N$-wide superscalar proc
 │   ├── bpred.h         # Branch predictor interface definitions
 │   ├── trace.h         # Instruction trace record definitions
 │   └── Makefile        # Build configuration
-├── traces/             # Benchmark execution traces (.ptr.gz)
-└── scripts/
-    ├── runall.sh       # Batch benchmark execution script
-    └── runtests.sh     # Automated validation script against golden outputs
+
